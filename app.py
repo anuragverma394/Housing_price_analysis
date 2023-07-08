@@ -18,7 +18,15 @@ lottie_url_hello = "https://assets9.lottiefiles.com/packages/lf20_leneywe2.json"
 
 lottie_hello = load_lottieurl(lottie_url_hello)
 
-st_lottie(lottie_hello, key="Welcome")
+with st.container():
+  right_column = st.container()
+st_lottie(lottie_hello,height=300, key="Welcome")
+
+
+ 
+ #with  right_column:
+  #   st_lottie(lottie_url_hello,height=300,key="coding")
+
 
 #loading data
 @st.cache_data
