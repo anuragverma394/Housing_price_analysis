@@ -21,3 +21,6 @@ st.title('House price data analysis')
 if st.checkbox('Show dataset',True):
      st.subheader('Dataset')
      st.dataframe(df)
+
+#app
+     
