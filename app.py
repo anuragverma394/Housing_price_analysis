@@ -40,12 +40,12 @@ with st.spinner('Loading data...'):
      df=load_data()
 
 #create a title for your app
-st.title('House price data analysis')
+st.title("House price data analysis     :dollar:")
 
 
 #display the data
 if st.checkbox('Show dataset',True):
-     st.subheader('Dataset')
+     st.subheader('Dataset:moneybag:')
      st.dataframe(df)
 
 #app

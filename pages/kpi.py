@@ -34,7 +34,7 @@ for col in selected_cols:
      st.metric(label = f'Mean {col}',
                   value= round(df[col].mean()),
                   delta= round(df[col].std()))
-     st.area_chart(df[col],use_container_width=True)
+     st.bar_chart(df[col],use_container_width=True)
     except:
         st.error(f'Cannot display {col} numeric data')
           
