@@ -7,7 +7,7 @@ import plotly.express as px
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
-
+#load requets
 def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
